@@ -1,3 +1,4 @@
+<?php
 $apikey = $_GET['apikey'];
 if (hash('sha512',$apikey) == 'fbdca9116c628886c4f52eda09590df587c2e1972d14173934f313c1e85dc5875ebec8c2b5a2545a21ada7a22accea8c47805dad9c9d2afd74af84f2d4ec324c') {
 	define('API_KEY',$apikey);
