@@ -38,10 +38,3 @@ function sendMessage($chat_id,$reply) {
 	$cmd.= " -d '" . $reply_json . "' '" . $url . "'";
 	exec($cmd, $output, $exit);
 }
- 
-
-
-
-
-
-
